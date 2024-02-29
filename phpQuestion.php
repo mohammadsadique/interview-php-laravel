@@ -90,7 +90,11 @@ echo "<br>";
 * * * * * 
 */
 
-
+/** 
+Arrange in asending order 
+ex:- 3,5,4,1,2 
+output:- 1,2,3,4,5
+*/
 $array = [3, 5, 2, 1, 4];
 for($j = 0; $j < count($array); $j++) {
     for($i = 0; $i < count($array)-1; $i++){
