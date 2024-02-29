@@ -1,5 +1,17 @@
 <?php
 /** Count individual characters */
+$str = "aabbccc";
+$arr = str_split($str);
+$store = [];
+foreach($arr as $data){
+    if($store[$data]){
+    	$store[$data]++;
+    } else {
+    	$store[$data] = 1;
+    }
+}
+print_r($store);
+
 $str = 'aabbccc';
 $arr = str_split($str);
 $output = [];
